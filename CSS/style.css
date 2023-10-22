@@ -1,0 +1,428 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.a{
+    text-decoration: none;
+    color: #000000;
+}
+.aT{
+    text-decoration: none;
+    color: #ffffff;
+}
+.af{
+    text-decoration: none;
+    color: #8191A6;
+}
+.conteiner{
+    margin: auto;
+    width: 70%;
+}
+.flex{
+    display: flex;
+}
+header{
+    position: sticky; 
+    display: block;
+    height: 130px;
+    top: 0; 
+    background-color: #FFF;
+    z-index: 1;
+    left: 50%; 
+}
+.header {
+    height: 40px;
+    margin-bottom: 20px;
+    display: flex;
+}
+.tel{
+    width: 184px;
+    height: 37px;
+    margin-left: auto;
+    margin-right: 0;
+    background-color: #ffa019;
+    border-radius: 10px;
+    border: 0px;
+    color: #FFF;
+    font-size: 13px;
+    font-weight: 700;
+    box-sizing: border-box;
+    float: right;
+    margin-top: 5px;   
+}
+
+.tel:hover{
+    background-color: #b8561d;
+}
+hr{
+    width: 100%;
+    margin: auto;
+    padding: 0;
+    height: 5px;
+    border: none;   
+    box-shadow: 0px -2px 2px 0px rgba(180, 180, 180, 0.5)
+}
+.MyGiRo{
+    margin-top: 11px;
+    font-size: 30px;
+    font-weight: 700;
+}
+.menu_MyG{ 
+    font-size: 14px;
+    float: right;  
+    margin-top: 11px;
+    margin-left: auto;
+}
+.menu_items{
+    padding-left: 48px;       
+}
+
+.menu_img{
+    width:100%;
+    height: 800px;
+    position: relative;
+   background: url("/img/scooter.png") no-repeat;
+    text-align: center;
+    display:table;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+}
+.menu_img_p {
+    color: white;
+    vertical-align:middle;
+    display:table-cell;
+    padding-bottom: 150px;
+}
+.menu_img button{
+    width: 134px;
+    height: 45px;
+    border-radius: 10px;
+    background: #FFF;
+    border:none;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+}
+.menu_img button:hover{
+    background-color: #cccccc;
+}
+
+.menu_imgMY{
+    height: 20px;
+    font-size: 52px;
+    font-weight: 300;   
+}
+.menu_imgText{
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+    padding-left: 500px;
+    padding-right: 500px;
+}
+
+
+
+.preim{
+    margin-top: 112px;   
+}
+h1{
+    font-size: 34px;
+    font-weight: 400;
+}
+.preim img{
+    padding-top: 90px;
+    width: 60%;   
+    padding-left: 17%;
+    padding-right: 17%;
+}
+.preim p{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: justify;
+    text-align: center;
+}
+.preim_padding{
+    margin-left: 110px;
+}
+.preim_padding2{
+    margin-left: 20px;
+}
+.preim_treug{
+    display: flex;
+}
+.svg{
+    margin-top: 40px;
+    margin-left: auto;
+}
+.about_us{
+    padding-top: 60px;
+}
+.about_us p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+#email{
+    background-color: #FFA019;  
+    margin-top: 85px;  
+    height: 94px;
+    width: 100%;   
+}
+#email p{
+    color: #FFF;
+    font-size: 18px;   
+    font-weight: 600;
+    width: 316px;
+    height: 79px;
+    margin-right: 149px;
+}
+.email_name{
+    width: 265px;
+    height: 37px;
+    border: 1px solid #FFF;
+    background: #FFA019;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 21px;
+    margin-left: auto;
+    margin-right: 15px;
+    cursor:text;
+}
+.email_sub{
+    width: 184px;
+    height: 37px;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 21px;
+    margin-left: auto;
+    background: #FFF;
+    border: none;
+    cursor: pointer;
+}
+.email_sub:hover{
+    background-color: #ececec;
+}
+
+.features{
+    margin-top: 84px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.features ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+.features_list{
+    margin-left: auto;
+}
+.features p{
+    margin-top: 43px;
+    text-align: justify;
+    margin-bottom: 126px;
+}
+
+#katalog{
+    background: rgba(251, 251, 251, 0.47);
+    padding-top: 33px;
+}
+.katalog{
+    margin-left: auto;
+    padding-top: 27px;
+}
+.katalog button{
+    margin-left: 38px;
+    background: #FFF;
+    border: none;
+    border-radius: 2cqh;
+    height: 43px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.katalog button:hover{
+    background-color: #FFA019;
+    color: #FFF;
+}
+.katalog_wh{
+    width: 100%;
+    margin-top: 103px;
+    padding-top: 12px;
+    padding-right: 48px;
+    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+    margin-bottom: 343px;
+}
+.katalog_wh_margin{
+    margin-right: 28px;
+}
+
+.katalog_wh img{
+    margin-top: 19px;
+    width: 90%;
+    margin-left: 35px;
+    margin-right: 48px;
+}
+.katalog_wh p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 23px;
+    margin-bottom: 25px;
+}
+.katalog_wh button{
+    border-radius: 0px 10px 10px 0px;
+    background: #FFA019;
+    border: none;
+    color: #FFF;
+    height: 23px;
+    padding: 0 14px 2px 14px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.consultant{
+    margin-top: 70px;
+    margin-bottom: 165px;  
+    background: rgba(251, 251, 251, 0.47);
+}
+.consultant_box{
+    margin-right: 180px;
+    margin-left: auto;
+}
+.consultant_box img{
+    width: 60%;
+    margin-right: 27px;
+}
+.name{
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.maneger{
+    width: 180px;
+    font-size: 12px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+.consultant button{
+    background: #FFA019;
+    border: none;
+    color: #FFF;
+    border-radius: 8px;
+    margin-top: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 3px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.consultant button:hover{
+    background-color: #b8561d;
+}
+
+#info{
+    background: #FBFBFB;
+}
+.info_p{
+    color: #9B9B9B;
+    font-size: 50px;
+    font-weight: 700;  
+    margin-left: 80px;  
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.info_span{
+    width: 90%;
+    padding-right: 60px;
+}
+
+#footer{
+    margin-top: 68px;
+    color:  #9B9B9B;
+}
+.footer_img{
+    position: relative;
+    margin-top: 56px;
+    margin-bottom: 215px;
+}
+.footer_p{
+    margin-right: 55px;
+}
+#footer img{
+    width: 100%;
+    filter: brightness(70%); 
+}
+.footer_text{
+    position: absolute;
+    top: 33%;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+.footer{
+    color: #8191A6;
+}
+.footer p{
+    text-align: justify;
+    margin-bottom: 30px;
+}
+.footer h4{
+    color: #303842;
+}
+.span_1{
+    width: 380px;
+    margin-right: 260px;
+}
+.span_2{
+    margin-left: auto;
+}
+.span_2 p{
+    margin: 5px 0 0 0;
+}
+.span_3{
+    padding-right: 70px;
+}
+.copyright{
+    color: #8191A6;
+    margin-top: 70px;
+    padding-bottom: 60px;
+}
+
+/* 1280 x 800 */
+@media(max-width: 1280px) { 
+    .MyGiRo{
+        font-size: 20px;
+    }
+    .menu_MyG{ 
+        font-size: 11px;
+    }
+    .name{
+        font-size: 15px;
+    }
+    .consultant_box{
+        margin-right: 100px;
+    }
+    .consultant_box img{
+        margin-right: 20px;
+    }
+    .info_p{
+        font-size: 30px;
+        margin-left: 40px;  
+    }
+    .footer_text{
+        top: 27%;
+        font-size: 10px;
+    }
+    #email p{
+
+        font-size: 15px;   
+    }
+}
+
+
+
